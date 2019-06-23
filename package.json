@@ -1,0 +1,51 @@
+{
+  "name": "RELO",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "accounting": "^0.4.1",
+    "apollo-cache-inmemory": "^1.5.1",
+    "apollo-cache-persist": "^0.1.1",
+    "apollo-client": "^2.5.1",
+    "apollo-env": "^0.4.0",
+    "apollo-link": "^1.2.11",
+    "apollo-link-context": "^1.0.17",
+    "apollo-link-error": "^1.1.10",
+    "apollo-link-http": "^1.5.14",
+    "apollo-link-state": "^0.4.2",
+    "apollo-link-timeout": "^1.2.1",
+    "axios": "^0.18.0",
+    "buffer": "^5.2.1",
+    "formik": "^1.5.4",
+    "graphql": "^14.2.1",
+    "graphql-tag": "^2.10.1",
+    "native-base": "^2.8.1",
+    "react": "16.4.1",
+    "react-apollo": "^2.5.4",
+    "react-native": "0.56.0",
+    "react-native-flexbox-grid": "^0.3.2",
+    "react-native-modal": "^10.0.0",
+    "react-native-navigation": "^2.0.2571",
+    "react-native-toasty": "0.0.4",
+    "react-native-vector-icons": "^6.0.0",
+    "recompose": "^0.30.0",
+    "url": "^0.11.0",
+    "yup": "^0.27.0"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-decorators": "^7.0.0-beta.44",
+    "babel-jest": "23.6.0",
+    "babel-plugin-transform-decorators-legacy": "^1.3.5",
+    "babel-preset-react-native": "^5",
+    "jest": "23.6.0",
+    "react-native-dotenv": "^0.2.0",
+    "react-test-renderer": "16.4.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
