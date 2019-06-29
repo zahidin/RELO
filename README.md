@@ -19,5 +19,3 @@ $ react-native run-android
 #or
 $ react-native run-ios
 ```
-### Screenshot
-![Image](https://github.com/zahidin/RELO/blob/master/screenshot/Screenshot_1561282044.png?raw=true)
